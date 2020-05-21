@@ -4,7 +4,8 @@ import Cart from './Cart'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
-import {BrowserRouter, Route, Switch} from 'react-router-dom' 
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+//import Phone from './Phone' 
 //import CartList from './CartList'
 
 
@@ -27,6 +28,7 @@ class App extends Component{
          </div>
          
          </BrowserRouter>
+  
          </div>
          
     );

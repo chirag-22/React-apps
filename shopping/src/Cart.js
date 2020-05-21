@@ -6,12 +6,12 @@ const Cart = () =>{
     
      
         return( 
-            <div>
-            <nav className="navbar navbar-inverse">
-            <ul className="nav navbar-nav">
-					<li><Link to ="/">Home</Link></li>
-					<li><Link to="Contact">Contact</Link></li>
-					<li><Link to="About">About</Link></li>
+            <div>      
+            <nav className="navbar navbar-dark bg-dark">
+            <ul className="nav justify-content-start">
+					<li className="nav-item"><Link className="nav-link text-light" to ="/">Home</Link></li>
+					<li className="nav-item"><Link className="nav-link text-light" to="Contact">Contact</Link></li>
+					<li className="nav-item"><Link className="nav-link text-light" to="About">About</Link></li>
 				</ul>
             </nav>
         </div>
