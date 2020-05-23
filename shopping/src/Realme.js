@@ -1,10 +1,12 @@
 import React from 'react';
-import Home from 'Home'
 const Realme = () =>{
     return(
     <div>
-        <h1 className="text-center">Welcome To About Page</h1>
+        <div className="ma4 shadow-4 dib pa2">
+        <img src="Phonereal.jpeg" alt="realme"/>
+        <button>Add To Cart</button>
+        </div>
         </div>
     )
 }
-export default Realme;
+export default Realme ;
