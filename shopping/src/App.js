@@ -13,9 +13,10 @@ class App extends Component{
   render(){
     return(
       <div>
+        
         <div className="jumbotron text-center">      
           <h1>CRAFTIC ECHOES</h1>
-          <p>Mission, Vission & Values</p>
+          <p>Mission, ssion & Values</p>
          </div>
          <BrowserRouter>
          <div>
