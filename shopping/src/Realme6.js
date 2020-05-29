@@ -15,10 +15,24 @@ const Realme6 = () =>{
          <br/><i className="fas fa-tag  fas-color" ></i> <h6 className="dib"> <span className="font-weight-bolder">Partner Offer</span>Get 6-month YouTube Premium free trial with any Smartphone purchase</h6>
        </div>
               
-       <div>
+       <div className="row shadow-4">
            <h1>Product Description</h1>
-           <hr/>
+           <div>
+               <hr/>
+           <img src="phonereal1.jpeg"alt="1"/>
+           <div className="col-lg-6 mr-1 float-left">
+           <h5 className="dib ml-2">90 Hz Ultra Smooth Display</h5>
+           <p className="dib">Get ready for a smooth and seamless interaction experience, every time you slide or tap your finger on the realme 6 Pro’s screen. By refreshing 90 times per second and featuring a fast refresh rate, this phone’s screen is as smooth as it comes.</p>
+           </div>
+           </div>
            
+           <div className="col-lg-2 pr-1">  
+               <img src="phonereal2.jpeg"alt="2"/>
+           </div>
+           <div className="col-lg-9">
+               <h5 className="dib">Dual In-display Selfie</h5>
+               <p className="dib">Take your selfie game to a whole ‘nother level with the realme 6 Pro’s 16 MP wide-angle lens, a 105° ultra-wide-angle lens, and a dual-camera combination that provides a 3x wider field of view.</p>
+           </div>
        </div>
 
        </div>
