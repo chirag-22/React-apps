@@ -1,12 +1,15 @@
 import React from 'react';
+import Realme6 from './Realme6';
 const Realme = () =>{
     return(
-    <div>
-        <div className="ma4 shadow-4 dib pa2">
+        <div>
+        <div className="col-lg-4 dib">
         <img src="Phonereal.jpeg" alt="realme"/>
-        <button>Add To Cart</button>
         </div>
+        
+        <Realme6/>
+
         </div>
-    )
+  )
 }
 export default Realme ;
